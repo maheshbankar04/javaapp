@@ -3,5 +3,6 @@ public class Main {
         System.out.println("Hello, World!");
         System.out.println("output from java program");
         System.out.println(java.time.LocalDateTime.now());
+        System.out.println("This is a test message.");
     }
 }
