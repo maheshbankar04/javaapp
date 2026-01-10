@@ -5,5 +5,7 @@ public class Main {
         System.out.println(java.time.LocalDateTime.now());
         System.out.println("This is a test message.");
         System.out.println("This line has a typo in the print statement.");
+        System.out.println("End of the program.");
+  
     }
 }
