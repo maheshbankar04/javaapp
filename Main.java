@@ -1,3 +1,5 @@
+import java.rmi.StubNotFoundException;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -6,6 +8,9 @@ public class Main {
         System.out.println("This is a test message.");
         System.out.println("This line has a typo in the print statement.");
         System.out.println("End of the program.");
+        Student student = new Student();
+        student.displayInfo(); 
+        
   
     }
 }
